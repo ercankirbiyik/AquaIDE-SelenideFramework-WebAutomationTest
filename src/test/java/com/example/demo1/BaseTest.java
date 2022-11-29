@@ -21,7 +21,7 @@ public class BaseTest extends BasePage{
         elementsInfo.loginButton.click();
         elementsInfo.myAccountButton.shouldBe(visible);
         elementsInfo.myAccountButton.click();
-        assertEquals("LC WAIKIKI", Selenide.title());
+        assertEquals("LC Waikiki | İlk Alışverişte Kargo Bedava! - LC Waikiki", Selenide.title());
     }
     @Test
     public void search() {
